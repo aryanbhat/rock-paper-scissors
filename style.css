@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.title{
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1% 0;
+}
+.container{
+  width: 80%;
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.choose{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.choose a{
+  font-size: 3rem;
+  text-decoration: none;
+  color : whitesmoke;
+  background-color: #868162;
+  padding: 5%;
+  border-radius: 20px;
+  transition: all 0.8s ease;
+}
+.choose a:hover{
+  background-color: #514e39;
+  color: white;
+  transform: scale(1.1);
+}
+.choose-title{
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  margin: 2% 0;
+}
+.winner{
+  text-align: center;
+  font-size: 1.3rem;
+}
+.player div{
+  font-size: 1.5rem;
+}
+.playerName{
+  margin: 20% 0;
+}
+.computer div{
+  font-size: 1.5rem;
+}
+.computerName{
+  margin: 20% 0;
+}
+.success{
+  background-color: rgb(8, 167, 8);
+  color: whitesmoke;
+}
+.loss{
+  background-color: red;
+  color: white;
+}
+.avoid-clicks{
+  pointer-events: none;
+}
+.result{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 2% 0;
+}
